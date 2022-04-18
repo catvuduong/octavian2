@@ -1,0 +1,7 @@
+@function lineH($h, $fs) {
+    @return $h / $fs;
+}
+
+@function mb($fs, $rows, $lh) {
+    @return $fs * $rows * $lh;
+} ;
